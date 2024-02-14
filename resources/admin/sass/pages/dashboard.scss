@@ -1,0 +1,119 @@
+.dashbox {
+    background-color: $white;
+    border: 1px solid $ls-color-gray--dark;
+    border-radius: 4px;
+    display: block;
+    padding: 15px 20px;
+    position: relative;
+    text-align: right;
+
+    .box-icon {
+        width: 60px;
+        height: 60px;
+        background: $ls-color-primary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        i {
+            font-size: 30px;
+            color: $white;
+        }
+    }
+
+    .title {
+        color: $ls-color-black;
+        display: block;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .desc {
+        color: $ls-color-black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    .refresh-btn {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+
+        i {
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            font-size: 20px;
+        }
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// Ecommerce
+
+.dashbox-line-progress {
+    padding: 30px;
+    text-align: left;
+
+    i {
+        right: 30px;
+        left: auto;
+        top: 30px;
+    }
+
+    .progress {
+        height: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    .title {
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+
+}
+
+.dashbox-circle-progress {
+    text-align: left;
+    padding: 30px;
+
+    .easy-pie-chart {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .dashbox {
+        padding: 15px;
+
+        i {
+            left: 30px;
+            top: 25px;
+        }
+
+        &.dashbox-line-progress i {
+            right: 15px;
+            left: auto;
+            top: 15px;
+        }
+    }
+
+    .dashbox-circle-progress {
+        padding: 30px;
+    }
+}

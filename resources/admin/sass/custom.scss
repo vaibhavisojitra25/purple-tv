@@ -1,0 +1,141 @@
+.sf-banner-img {
+    width: 100px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.sf-price-input {
+    max-width: 75px !important;
+}
+
+.date-filter {
+    max-width: 320px;
+}
+
+.action-btn {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+        color: #fff;
+    }
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.product-img-preview {
+    margin-top: 15px;
+    text-align: center;
+
+    img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
+
+#previewImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.theme-logo {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.table-image {
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        border-radius: 50%;
+        box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.match-teams {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.status-badge {
+    min-width: 80px;
+}
+
+.tvapp-main {
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    .app-icon {
+        display: block;
+        width: 100%;
+
+        img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+    }
+}
+
+.no-padding {
+    .dataTables_wrapper {
+        padding: 0 !important;
+    }
+}
+
+.treejs .treejs-node__halfchecked>.treejs-checkbox:before,
+.treejs .treejs-node__checked>.treejs-checkbox:before {
+    background-color: #a13dff !important;
+    border-color: #a13dff !important;
+}
+
+.treejs-checkbox {
+    &:hover {
+        &:before {
+            box-shadow: 0 0 2px 1px #a13dff !important;
+        }
+    }
+}
+
+.access-denied-main {
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+#toast-container>div {
+    opacity: 1 !important;
+}
+
+.custom-file-label {
+    padding-right: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
